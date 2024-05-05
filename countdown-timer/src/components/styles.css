@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items horizontally */
+    /* justify-content: center; Align items vertically */
+    height: 100vh; /* Take full height of the viewport */
+    gap: 20px;
+    background-color: rgb(199, 89, 239);
+  }
+
+.initialOutput{
+    display: flex;
+    gap: 30px;
+}
+
+.finalOutput{
+    display: flex;
+    gap: 30px;
+}
+
+.item {
+    background-color:  rgb(199, 89, 239);
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    width: 70px; 
+  }
+
+  input{
+    border: 2px solid white;
+    color: white;
+    background-color:  rgb(199, 89, 239) ;
+  }
+
+  button{
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(199, 89, 239);
+  }
+  h1{
+    color: white;
+  }
