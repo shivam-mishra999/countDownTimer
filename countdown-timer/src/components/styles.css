@@ -5,7 +5,7 @@
     /* justify-content: center; Align items vertically */
     height: 100vh; /* Take full height of the viewport */
     gap: 20px;
-    background-color: rgb(199, 89, 239);
+    background-color: rgb(186, 53, 235);
   }
 
 .initialOutput{
@@ -19,7 +19,7 @@
 }
 
 .item {
-    background-color:  rgb(199, 89, 239);
+    background-color:  rgb(117, 56, 140);
     border: 2px solid white;
     border-radius: 5px;
     color: white;
@@ -33,14 +33,17 @@
   input{
     border: 2px solid white;
     color: white;
-    background-color:  rgb(199, 89, 239) ;
+    background-color:  rgb(118, 35, 148) ;
   }
 
   button{
     border: 2px solid white;
     color: white;
-    background-color: rgb(199, 89, 239);
+    background-color: rgb(133, 46, 165);
   }
   h1{
     color: white;
+  }
+  span{
+    color: rgb(78, 8, 86) !important;
   }

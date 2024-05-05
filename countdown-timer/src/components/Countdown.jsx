@@ -82,7 +82,7 @@ const Countdown = () => {
 
   return (
     <div className="container">
-      <h1>Countdown Timer</h1>
+      <h1>Countdown <span>Timer</span></h1>
       <form>
         <input
             type="datetime-local"
