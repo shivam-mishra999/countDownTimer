@@ -47,3 +47,17 @@
   span{
     color: rgb(78, 8, 86) !important;
   }
+
+  @media(max-width: 700px){
+    .initialOutput{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .finalOutput{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .item {
+        width: calc(50% - 20px); /* Set width to half of the container width with gap */
+      }
+  }
